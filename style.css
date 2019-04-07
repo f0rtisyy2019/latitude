@@ -31,8 +31,27 @@ nav > div.navbar-collapse {
 	width: 100%;
 }
 
+.lat_body img.current {
+	border: 1px solid #0ea39c;
+}
+
+.lat_body .example img {
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+
+.lat_body .featured img {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+}
+
 .align_center.lat_body {
 	background: #eee;
+	display: inline-block;
+	margin-bottom: 50px;
 }
 
 .lat_body > .cont {
